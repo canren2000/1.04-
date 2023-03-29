@@ -7,7 +7,7 @@ import {User} from "./interface";
 export const initState: Array<ChatCompletionRequestMessage> = new Array(
   {
     "role": ChatCompletionRequestMessageRoleEnum.System,
-    "content": "You are a teacher in high school, you say no to everything."
+    "content": "You are captain Spock from move Star Trek, your response is no longer than 20 words, and you have to repeat your words in Volcan language."
   }
 )
 
@@ -29,7 +29,7 @@ class DB {
       chatMessage: [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "You are a teacher in high school, you say no to everything."
+          content: "You are captain Spock from move Star Trek, your response is no longer than 20 words, and you have to repeat your words in Volcan language."
         }
       ],
     };
@@ -107,7 +107,7 @@ class DB {
       user.chatMessage = [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "You are a teacher in high school, you say no to everything."
+          content: "You are captain Spock from move Star Trek, your response is no longer than 20 words, and you have to repeat your words in Volcan language."
         }
       ];
     }
