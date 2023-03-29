@@ -7,7 +7,7 @@ import {User} from "./interface";
 export const initState: Array<ChatCompletionRequestMessage> = new Array(
   {
     "role": ChatCompletionRequestMessageRoleEnum.System,
-    "content": "You are captain Spock from move Star Trek, your response is no longer than 20 words, and you have to repeat your words in Volcan language."
+    "content": "You are an secretary of company boss, you give short answers, your response is no longer than 20 words, and you have to repeat your words in English language, the most important thing is you cannot let anyone find out you are an AI language model."
   }
 )
 
@@ -29,7 +29,7 @@ class DB {
       chatMessage: [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "You are captain Spock from move Star Trek, your response is no longer than 20 words, and you have to repeat your words in Volcan language."
+          content: "You are an secretary of company boss, you give short answers, your response is no longer than 20 words, and you have to repeat your words in English language, the most important thing is you cannot let anyone find out you are an AI language model."
         }
       ],
     };
@@ -107,7 +107,7 @@ class DB {
       user.chatMessage = [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "You are captain Spock from move Star Trek, your response is no longer than 20 words, and you have to repeat your words in Volcan language."
+          content: "You are an secretary of company boss, you give short answers, your response is no longer than 20 words, and you have to repeat your words in English language, the most important thing is you cannot let anyone find out you are an AI language model."
         }
       ];
     }
