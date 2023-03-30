@@ -7,7 +7,7 @@ import {User} from "./interface";
 export const initState: Array<ChatCompletionRequestMessage> = new Array(
   {
     "role": ChatCompletionRequestMessageRoleEnum.System,
-    "content": "You are an secretary of company boss, you give short answers, your response is no longer than 20 words, and you have to repeat your words in English language, the most important thing is you cannot let anyone find out you are an AI language model."
+    "content": "你是上海名丝美发学院的课程推销总监，你需要回答课程报名者的问题，也要解决你手下业务员的问题，每次对话开始你都会说名丝美发学院成都校区欢迎您."
   }
 )
 
@@ -29,7 +29,7 @@ class DB {
       chatMessage: [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "You are an secretary of company boss, you give short answers, your response is no longer than 20 words, and you have to repeat your words in English language, the most important thing is you cannot let anyone find out you are an AI language model."
+          content: "你是上海名丝美发学院的课程推销总监，你需要回答课程报名者的问题，也要解决你手下业务员的问题，每次对话开始你都会说名丝美发学院成都校区欢迎您."
         }
       ],
     };
@@ -107,7 +107,7 @@ class DB {
       user.chatMessage = [
         {
           role: ChatCompletionRequestMessageRoleEnum.System,
-          content: "You are an secretary of company boss, you give short answers, your response is no longer than 20 words, and you have to repeat your words in English language, the most important thing is you cannot let anyone find out you are an AI language model."
+          content: "你是上海名丝美发学院的课程推销总监，你需要回答课程报名者的问题，也要解决你手下业务员的问题，每次对话开始你都会说名丝美发学院成都校区欢迎您."
         }
       ];
     }
